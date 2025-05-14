@@ -1,0 +1,197 @@
+
+body{
+	font-family: "Roboto", sans-serif;
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Dosis", sans-serif;
+}
+
+header{
+	background-color: transparent;
+	padding: 12px 0;
+	position: absolute;
+	top:0;
+	width: 100%;
+}
+
+#hero{
+	background-image: url( "../img/bg-site.jpeg");
+	background-size: 100% 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding: 14% 0 4%;
+}
+
+.titulo{
+	font-size: 75px;
+}
+
+.btn-primary{
+	background-color: #fff;
+	border-color: #fff;;
+	font-size: 16px;
+	padding: 12px 18px;
+	border-radius: 45px;
+	font-weight: 600;
+	box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.05);
+	margin-top: 50px;
+}
+.btn-outline{
+	background-color: transparent;
+	border-width: 2px;
+}
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+padding-top: 12;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: white; 
+}
+
+.feature-list li i {
+  color: white; 
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+#about{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#about h1{
+	font-size: 40px;
+	font-weight: 500;
+	color: #111111;
+}
+
+#about h5{
+	font-size: 18px;
+	font-weight: 300;
+	color: #66615b;
+}
+
+#about p{
+	font-size: 16px;
+	font-weight: 200;
+	color: #66615b;
+}
+
+#screenshots{
+	background-color: #f5fafd;
+	padding: 100px 100px;
+}
+
+#screenshots h1{
+	font-size: 40px;
+	font-weight: 500;
+	color: #111111;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#screenshots p{
+	font-size: 16px;
+	font-weight: 200;
+	color: #66615b;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#features{
+	background-color: #fff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 100px;
+	
+}
+
+.funciones i {
+  font-size: 50px;
+  color:#FF591F; 
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.funciones h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color:#000000;
+}
+
+.funciones p {
+  font-size: 14px;
+  margin: 0;
+  color: #66615b;
+}
+
+.download-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(90deg, #f76b1c, #f54ea2);
+ background-image: url( "../img/bg-site.jpeg")
+}
+
+.download-section h1 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.button-card {
+  background: white;
+  color: #333;
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  min-width: 240px;
+  text-align: left;
+}
+
+.button-card:hover {
+  transform: scale(1.05);
+}
+
+.button-card i {
+  font-size: 36px;
+	color: #888;
+}
+.button-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+footer{
+	padding: 45px 45px;
+	background-color: #252422;
+	color: #fff;
+	text-align: center;
+}
+
+footer i{
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 35px;
+	margin-right: 35px;
+}
